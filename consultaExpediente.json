@@ -1,0 +1,159 @@
+{
+    "estado": "1",
+    "mensaje": null,
+    "idExpediente": 273934,
+    "numero": "2020-E01-037601",
+    "titulo": "Prueba",
+    "autor": {
+        "id": 2818,
+        "nombre": "ARMANDO HECTOR ROCA POMA [OTI: Oficina de Tecnologías de la Información]",
+        "aux": "AROCA1"
+    },
+    "proceso": {
+        "id": 2,
+        "nombre": "Recepción",
+        "aux": null
+    },
+    "plazo": 30,
+    "tipoDias": 92,
+    "fechaCrecion": null,
+    "horaCreacion": null,
+    "trazas": [
+        {
+            "idArea": 9,
+            "nombreArea": "OTI: Oficina de Tecnologías de la Información",
+            "idPersona": 4754,
+            "nombreCompleto": "JERSON BRAYAN ALVAREZ AMBROSIO",
+            "fechaCreacion": 1593215007269,
+            "accion": "Registrar",
+            "observacion": "Creación del Registro"
+        },
+        {
+            "idArea": 9,
+            "nombreArea": "OTI: Oficina de Tecnologías de la Información",
+            "idPersona": 2818,
+            "nombreCompleto": "ARMANDO HECTOR ROCA POMA",
+            "fechaCreacion": 1593216615780,
+            "accion": "Derivar",
+            "observacion": "atender requerimiento"
+        },
+        {
+            "idArea": 9,
+            "nombreArea": "OTI: Oficina de Tecnologías de la Información",
+            "idPersona": 2818,
+            "nombreCompleto": "ARMANDO HECTOR ROCA POMA",
+            "fechaCreacion": 1593218952940,
+            "accion": "Archivar",
+            "observacion": "se archiva por prueba"
+        },
+        {
+            "idArea": 9,
+            "nombreArea": "OTI: Oficina de Tecnologías de la Información",
+            "idPersona": 2818,
+            "nombreCompleto": "ARMANDO HECTOR ROCA POMA",
+            "fechaCreacion": 1593218973320,
+            "accion": "Registrar",
+            "observacion": "Reabierto el registro."
+        }
+    ],
+    "expedientesVinculados": [],
+    "carpeta": {
+        "id": null,
+        "nombre": " - ",
+        "aux": null
+    },
+    "documentos": [
+        {
+            "idDocumento": 350730,
+            "asunto": "Primera iteracion de pruebas",
+            "tipoDocTramiteDTO": null,
+            "folios": 12,
+            "descripcion": null,
+            "esPrincipal": 1,
+            "archivos": [
+                {
+                    "idArchivo": 681083,
+                    "nombre": "HojaDeTramite.pdf",
+                    "esPrincipal": 1,
+                    "uuid": "74d00247-148b-48e1-a73f-ab6f26d2e25f"
+                },
+                {
+                    "idArchivo": 681084,
+                    "nombre": "2_prueba.pdf",
+                    "esPrincipal": null,
+                    "uuid": "cac6f6ef-1e32-42e3-992e-01f728525ffa"
+                }
+            ]
+        },
+        {
+            "idDocumento": 350740,
+            "asunto": "porlss",
+            "tipoDocTramiteDTO": null,
+            "folios": null,
+            "descripcion": null,
+            "esPrincipal": 0,
+            "archivos": [
+                {
+                    "idArchivo": 681236,
+                    "nombre": "OS N 1128-2020.pdf",
+                    "esPrincipal": 1,
+                    "uuid": "83f61856-4584-487d-8476-317c5ea534e4"
+                },
+                {
+                    "idArchivo": 681237,
+                    "nombre": "TDR OS 1128-2020.pdf",
+                    "esPrincipal": null,
+                    "uuid": "3aaf9596-1385-40ab-92eb-9c53fb6b1554"
+                }
+            ]
+        },
+        {
+            "idDocumento": 350739,
+            "asunto": "ccc",
+            "tipoDocTramiteDTO": null,
+            "folios": null,
+            "descripcion": null,
+            "esPrincipal": 0,
+            "archivos": []
+        },
+        {
+            "idDocumento": 350738,
+            "asunto": "xxx",
+            "tipoDocTramiteDTO": null,
+            "folios": null,
+            "descripcion": null,
+            "esPrincipal": 0,
+            "archivos": [
+                {
+                    "idArchivo": 681238,
+                    "nombre": "prueba-S2.pdf",
+                    "esPrincipal": 1,
+                    "uuid": "15b3faf1-ea38-4b2d-a39a-f0183e8f4eb6"
+                }
+            ]
+        },
+        {
+            "idDocumento": 350734,
+            "asunto": "prueba de cambios de datos",
+            "tipoDocTramiteDTO": null,
+            "folios": null,
+            "descripcion": null,
+            "esPrincipal": 0,
+            "archivos": [
+                {
+                    "idArchivo": 681091,
+                    "nombre": "prueba-S.pdf",
+                    "esPrincipal": null,
+                    "uuid": "462ae21c-93fe-409a-870e-2d26fef0689c"
+                },
+                {
+                    "idArchivo": 681090,
+                    "nombre": "informe de Prueba2.pdf",
+                    "esPrincipal": 1,
+                    "uuid": "6a5ea7ad-44bd-44ab-8583-47c50a8915ab"
+                }
+            ]
+        }
+    ],
+    "fechaCreacionExpediente": 1593214170527
+}
